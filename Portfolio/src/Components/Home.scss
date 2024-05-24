@@ -1,0 +1,46 @@
+.mainHome{
+    // border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    gap: 20px;
+    .mainLeft{
+        box-shadow: 10px 10px 10px 0 white;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    p{
+        font-size: 25px;
+    }
+    h3{
+        color: white;
+        font-size: 30px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .buttons{
+        display: flex;
+        gap: 10px;
+    }
+}
+.mainRight{
+    .profile{
+        width: 250px;
+        height: 300px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px 0 white;
+    }
+}
+
+.buttons :hover{
+    background-color: orange;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
