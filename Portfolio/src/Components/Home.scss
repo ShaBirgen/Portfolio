@@ -5,8 +5,9 @@
     justify-content: space-between;
     width: 70vw;
     gap: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 0 white;
     .mainLeft{
-        box-shadow: 10px 10px 10px 0 white;
         display: flex;
         flex-direction: column;
         gap: 30px;
@@ -29,11 +30,12 @@
     }
 }
 .mainRight{
+    border-radius: 10px;
     .profile{
-        width: 250px;
-        height: 300px;
-        border-radius: 10px;
-        box-shadow: 10px 10px 10px 0 white;
+        width: 450px;
+        height: 400px;
+        border-radius: 20px;
+        // box-shadow: 10px 10px 10px 0 white;
     }
 }
 
