@@ -1,15 +1,22 @@
 import './App.scss'
+import { Routes, Route } from 'react-router-dom'
 import Navbar from './Components/Navbar'
 import Home from './Components/Home'
+import Homepage from './Components/Homepage'
+import MenuItems from './Components/MenuItems'
 
 function App() {
 
   return (
     <div className='app'>
-      <Navbar/>
+       <Navbar/>
       <div className="main">
-      <Home/>
-      </div>
+      <Routes>
+          <Route path='/' element={<Homepage/>}/>
+          <Route path='/home' element={<Home/>}/>
+        </Routes>
+      </div> 
+      
     </div>
   )
 }

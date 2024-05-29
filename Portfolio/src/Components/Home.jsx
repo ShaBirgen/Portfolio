@@ -7,12 +7,11 @@ import Homepage from './Homepage'
 function Home() {
   return (
     <><div className="routes">
-      <BrowserRouter>
+{/*       
         <Routes>
           <Route index element={<Homepage />} />
           <Route path='/home' element={<Homepage/>}/>
-        </Routes>
-      </BrowserRouter>
+        </Routes> */}
     </div><div className='mainHome'>
         <div className="mainLeft">
           <h3>Hello!</h3>

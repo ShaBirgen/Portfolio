@@ -1,4 +1,11 @@
 .menus{
     display: flex;
     gap: 30px;
+    .menusitems a {
+        text-decoration: none; 
+      }
+      
+      .menusitems .listitems {
+        color: black;
+      }
 }

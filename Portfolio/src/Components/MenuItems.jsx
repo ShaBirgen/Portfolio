@@ -1,34 +1,44 @@
 import './MenuItems.scss'
+import { Link } from 'react-router-dom'
 
 const MenuItems=()=> {
     const menus=[
         {
-            Title : 'Home'
+            Title : 'Home',
+            path: './Home'
         },
         {
-            Title : 'About'
+            Title : 'About',
+            path: './'
         },
         {
-            Title : 'Resume'
+            Title : 'Resume',
+            path: './'
         },
         {
-            Title : 'Skills'
+            Title : 'Skills',
+            path: './'
         },
         {
-            Title : 'Project'
+            Title : 'Project',
+            path: './'
         },
         {
-            Title : 'MyBlog'
+            Title : 'MyBlog',
+            path: './'
         },
         {
-            Title : 'Contact'
+            Title : 'Contact',
+            path: './'
         }
     ]
   return (
     <div className='menus'>
-      {menus.map((menus, index)=> (
-        <div className="menusitems">
-            <span>{menus.Title}</span>
+      {menus.map((menu, index) => (
+        <div className="menusitems" key={index}>
+          <Link to={menu.path}>
+            <span className='listitems'>{menu.Title}</span>
+          </Link>
         </div>
       ))}
     </div>
