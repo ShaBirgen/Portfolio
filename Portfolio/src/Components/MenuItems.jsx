@@ -5,31 +5,31 @@ const MenuItems=()=> {
     const menus=[
         {
             Title : 'Home',
-            path: './Home'
+            path: './'
         },
         {
             Title : 'About',
-            path: './'
+            path: './about'
         },
         {
             Title : 'Resume',
-            path: './'
+            path: './resume'
         },
         {
             Title : 'Skills',
-            path: './'
+            path: './skills'
         },
         {
             Title : 'Project',
-            path: './'
+            path: './project'
         },
         {
             Title : 'MyBlog',
-            path: './'
+            path: './MyBlog'
         },
         {
             Title : 'Contact',
-            path: './'
+            path: './Contacts'
         }
     ]
   return (

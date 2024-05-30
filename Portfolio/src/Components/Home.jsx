@@ -2,7 +2,6 @@ import Button from './Button'
 import './Home.scss'
 import Profile from '../assets/Birgen.png'
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom'
-import Homepage from './Homepage'
 
 function Home() {
   return (
