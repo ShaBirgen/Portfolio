@@ -11,10 +11,10 @@ const MenuItems=()=> {
             Title : 'About',
             path: './about'
         },
-        {
-            Title : 'Resume',
-            path: './resume'
-        },
+        // {
+        //     Title : 'Resume',
+        //     path: './resume'
+        // },
         {
             Title : 'Skills',
             path: './skills'
