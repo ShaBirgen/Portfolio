@@ -1,6 +1,7 @@
 import './About.scss'
 import Profile from '../assets/Birgen.png'
 import Button from './Button'
+import cv from '../assets/Sharon_Birgen_CV.pdf'
 import Navbar from './Navbar'
 
 const About=()=> {
@@ -17,13 +18,9 @@ const About=()=> {
       Title: 'Address:',
       Value : 'Nairobi, Kenya'
     },
-    // {
-    //   Title: 'Name:',
-    //   Value : 'Sharon Cherotich Birgen'
-    // },
     {
       Title: 'Email:',
-      Value : 'Sharoncherotich112@gmail.com'
+      Value : <a className='email' href="mailto:Sharoncherotich112@gmail.com">Sharoncherotich112@gmail.com</a>
     },
     {
       Title: 'Phone:',
@@ -50,7 +47,11 @@ const About=()=> {
           </div>
         ))}
         </div>
-        <Button msg='Download Cv' />
+        <div className="cv">
+        <a href={cv} download="Sharon_Birgen_CV.pdf">
+              <Button msg='Download Cv' />
+            </a>
+        </div>
         </div>
         </div>
     </div>
