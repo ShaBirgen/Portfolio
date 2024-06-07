@@ -3,5 +3,11 @@
     gap: 30px;
     .menusitems a {
         text-decoration: none; 
-      }
+        }
+        }
+.menusitems a.active{
+  span.active{
+  border: 2px solid red;
+  color: #FEB949;
+  }
 }

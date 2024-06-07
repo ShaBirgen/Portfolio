@@ -1,17 +1,10 @@
 import Button from './Button'
 import './Home.scss'
 import Profile from '../assets/Birgen.png'
-import { BrowserRouter, Route, Routes, Link } from 'react-router-dom'
 
 function Home() {
   return (
-    <><div className="routes">
-{/*       
-        <Routes>
-          <Route index element={<Homepage />} />
-          <Route path='/home' element={<Homepage/>}/>
-        </Routes> */}
-    </div><div className='mainHome'>
+    <div className='mainHome'>
         <div className="mainLeft">
           <h3>Hello!</h3>
           <p>I'm Sharon Cherotich Birgen</p>
@@ -25,7 +18,7 @@ function Home() {
         <div className="mainRight">
           <img className='profile' src={Profile} alt="profile" />
         </div>
-      </div></>
+      </div>
   )
 }
 

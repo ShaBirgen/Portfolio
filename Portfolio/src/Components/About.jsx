@@ -2,7 +2,6 @@ import './About.scss'
 import Profile from '../assets/Birgen.png'
 import Button from './Button'
 import cv from '../assets/Sharon_Birgen_CV.pdf'
-import Navbar from './Navbar'
 
 const About=()=> {
   const Details=[
@@ -28,7 +27,7 @@ const About=()=> {
     }
   ]
  return (
-    <div className='main'>
+    <div className='about-main'>
       <div className="body">
       <div className="pic">
         <img src={Profile} alt="noPic" srcset="" />

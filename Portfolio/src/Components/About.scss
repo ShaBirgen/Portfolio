@@ -1,15 +1,13 @@
-.main{
+.about-main{
     display: flex;
     align-items: center;
-    justify-content: center;
     .body{
-        height: 70vh;
         display: flex;
-        padding: 20px;
+        // padding: 20px;
         .pic{
             img{
                 width: 400px;
-                height: 550px;
+                height: 400px;
             }
         }
     }

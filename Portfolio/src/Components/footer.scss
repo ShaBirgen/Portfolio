@@ -1,0 +1,53 @@
+.footermain{
+    // border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+.subscribe{
+    text-align: center;
+}
+.email{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    input{
+        width: 35vw;
+        padding: 10px;
+        border: none;
+        border-radius: 20px;
+        background-color: white;
+    }
+    button{
+        background-color: white;
+        color: black;
+        padding: 10px;
+        border: none;
+        border-radius: 20px;
+        font-weight: 700;
+        font-size: 15px;
+    }
+}
+.socials{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.media{
+    display: flex;
+    gap: 20px;
+    img{
+        background-color: white;
+        width: 40px;
+        padding: 5px;
+        border-radius: 50%;
+    }
+}

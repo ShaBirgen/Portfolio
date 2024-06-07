@@ -1,13 +1,8 @@
 .mainHome{
-    // border: 2px solid red;
-    width: 80vw;
-    height: 80vh;
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 20px;
     border-radius: 20px;
-    // box-shadow: 10px 10px 10px 0 rgba(255, 255, 255, 0.301);
     .mainLeft{
         display: flex;
         flex-direction: column;
@@ -35,11 +30,11 @@
     }
 }
 .mainRight{
-    border-radius: 10px;
+    border-radius: 10%;
     .profile{
-        width: 600px;
-        height: 550px;
-        border-radius: 20px;
+        width: 500px;
+        height: 500px;
+        border-radius: 10%;
         border: none;
     }
 }

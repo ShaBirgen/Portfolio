@@ -9,6 +9,7 @@ import Skills from './Components/Skills'
 import Projects from './Components/Projects'
 import MyBlogs from './Components/Blogs'
 import Contacts from './Components/Contacts'
+import Footer from './Components/footer'
 
 function App() {
 
@@ -26,7 +27,7 @@ function App() {
           <Route path='/Contacts' element={<Contacts/>}/>
         </Routes>
       </div> 
-      
+      <Footer/>
     </div>
   )
 }
